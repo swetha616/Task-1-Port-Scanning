@@ -21,6 +21,7 @@ To discover open ports on devices in the local network to understand network exp
 ### 2. Performed TCP SYN Scan
 nmap -sS 192.168.174.128/24
 
+
 ## 📊 Scan Summary
 
 | IP Address         | Status | Open Ports | Service   | MAC Vendor |
@@ -30,7 +31,8 @@ nmap -sS 192.168.174.128/24
 | `192.168.174.254`  | Up     | None       | —         | VMware     |
 | `192.168.174.128`  | Up     | None       | —         | VMware     |
 
-> ✅ 4 hosts were detected as live.  
-> Only one device (`192.168.174.2`) had an open port: **53 (DNS)**.
+
+✅ 4 hosts were detected as live.  
+Only one device (`192.168.174.2`) had an open port: **53 (DNS)**.
 
 
