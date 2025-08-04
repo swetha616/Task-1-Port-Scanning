@@ -36,3 +36,10 @@ nmap -sS 192.168.174.128/24
 Only one device (`192.168.174.2`) had an open port: **53 (DNS)**.
 
 
+## How to Reproduce This Scan
+
+You can reproduce this scan using:
+
+nmap -sS 192.168.174.128/24 -oN scan_results.txt
+
+
