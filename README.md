@@ -42,4 +42,4 @@ You can reproduce this scan using:
 
 nmap -sS 192.168.174.128/24 -oN scan_results.txt
 
-
+Replace 192.168.174.128/24 with your own local subnet.
