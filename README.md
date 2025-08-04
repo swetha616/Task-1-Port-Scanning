@@ -19,7 +19,6 @@ To discover open ports on devices in the local network to understand network exp
 - Network range scanned: `192.168.174.0/24`
 
 ### 2. Performed TCP SYN Scan
-```bash
 nmap -sS 192.168.174.128/24
 
 ## 📊 Scan Summary
@@ -33,3 +32,5 @@ nmap -sS 192.168.174.128/24
 
 > ✅ 4 hosts were detected as live.  
 > Only one device (`192.168.174.2`) had an open port: **53 (DNS)**.
+
+
